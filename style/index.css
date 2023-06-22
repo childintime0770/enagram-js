@@ -1,0 +1,45 @@
+body {
+	font-family: 'Inter', sans-serif;
+}
+
+body {
+	padding: 0 15px;
+}
+
+.header {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.main {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+	margin-top: 50px;
+}
+
+.main textarea {
+	width: 60%;
+	padding: 10px;
+	border: 1px solid #000;
+}
+
+.main button {
+	padding: 8px 40px;
+	background-color: #4681f4;
+	letter-spacing: 1px;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.main button:hover {
+	opacity: .9;
+}
+
+.audio-elements {
+	display: flex;
+	gap: 10px;
+}
